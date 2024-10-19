@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# This script passes all command-line arguments to the Python script
+
+# Check if Python 3 is available as 'python3' or 'python'
+PYTHON_CMD=$(command -v python3 || command -v python)
+
+if [ -z "$PYTHON_CMD" ]; then
+    echo "Python 3 is not installed or not found in PATH."
+    exit 1
+fi
+
+# Execute the Python script with all passed arguments
+$PYTHON_CMD main.py "$@"
