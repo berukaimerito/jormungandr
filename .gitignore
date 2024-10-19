@@ -154,9 +154,12 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
+
 # Ignore repos
 asteroids/
 
+# Ignore buffers from ecmas or vim
+*#
 
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
