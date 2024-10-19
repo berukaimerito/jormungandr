@@ -8,7 +8,7 @@ g
 - **Data Structures**: Implementations and explorations of common and advanced data structures.
 - **Games**: Simple games or game-related logic.
 - **HackerRank**: Solutions to coding challenges from the HackerRank platform.
-- **Keepit Assignment**: Special assignments or project work.
+- **Recruit Assignments**: Special assignments or project work.
 - **Maze Solver**: Logic and code to solve maze problems algorithmically.
 - **Scripts**: Various utility scripts for automating tasks or solving specific problems.
 
