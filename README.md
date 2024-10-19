@@ -1,7 +1,7 @@
 # Jormungandr
 
 A Python-based collection of algorithms, projects, problem-solving exercises, and system-related scripts.
-
+g
 ## Contents:
 - **Katas**: A collection of Python solutions for programming katas, covering challenges from platforms like Codewars and HackerRank.
 - **Beetle**: Custom tools or scripts for various purposes.
