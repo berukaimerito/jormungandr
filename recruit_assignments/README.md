@@ -37,5 +37,5 @@
 ### Solutions in order:
 
 1. solution_python : First implementation
-2. solution_pythonic Second implementation in Python.
-3. solution_
+2. solution_pythonic : Second implementation in Python.
+3. solution_cpp : Array-based implementation in C++. Does not use hashmaps.
