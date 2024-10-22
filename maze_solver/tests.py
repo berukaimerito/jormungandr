@@ -43,9 +43,26 @@ class Tests(unittest.TestCase):
     #     # Close the window after processing
     #     window._root_widget.destroy()
 
-    def test_break_walls_r(self):
-      pass
+    def test_reset_visited(self):
+        # Test configuration
+        num_cols = 6
+        num_rows = 6
+        margin = 40
+        screen_x = 900
+        screen_y = 720
+        cell_size_x = (screen_x - 2 * margin) / num_cols
+        cell_size_y = (screen_y - 2 * margin) / num_rows
+        window = Window(screen_x, screen_y)
+
+        m1 = Maze(margin, margin, num_rows, num_cols, cell_size_x, cell_size_y, window)
+
+        m1._reset_cells_visited()
+
+        # Verify that all cells' visited status is False
+        for row in m1._cells:
+            for cell in row:
+                assert cell.visited == False, "Expected cell.visited to be False after reset"
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     unittest.main()
